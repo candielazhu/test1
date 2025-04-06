@@ -1,0 +1,28 @@
+{
+    "测试":{
+        "recognition":"ocr",
+        "expected":"WLAN",
+        "action":"click",
+        "next":[]
+    },
+    "滑动":{
+        "action":"Swipe",
+        "begin":[100,500,10,10],
+        "end":[100,100,10,10],
+        "next":["添加网络"]
+    },
+    "添加网络":{
+        "recognition":"ocr",
+        "expected":"添加网络",
+        "action":"click",
+        "next":["取消"]
+    },
+    "取消":{
+        "recognition":"ocr",
+        "expected":"取消",
+        "action":"click"
+    },
+    "打开游戏":{
+        "package":"com.feiyu.hcollege.bilibili"
+    }
+}
